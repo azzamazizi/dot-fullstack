@@ -15,10 +15,11 @@ use App\Http\Controllers\{ AuthController,UserController,HomeController,Kategori
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::get('/', [AuthController::class, 'loginpage']);
 Route::get('/login', [AuthController::class, 'loginpage']);
 Route::post('/login', [AuthController::class, 'actlogin']);
 Route::get('/logout', [AuthController::class, 'actlogout']);

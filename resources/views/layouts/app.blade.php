@@ -22,6 +22,8 @@
     <!-- Select2 -->
   <link rel="stylesheet" href="{{ asset('assetslte/bower_components/select2/dist/css/select2.min.css') }}">
 
+  <link rel="stylesheet" href="{{ asset('assetslte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -130,6 +132,20 @@
 <script src="{{ asset('assetslte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
 <!-- Select2 -->
 <script src="{{ asset('assetslte/bower_components/select2/dist/js/select2.full.min.js') }}"></script>
+
+<!-- CK Editor -->
+<script src="{{ asset('assetslte/bower_components/ckeditor/ckeditor.js') }}"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="{{ asset('assetslte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}"></script>
+<script>
+  $(function () {
+    // Replace the <textarea id="editor1"> with a CKEditor
+    // instance, using default configuration.
+    CKEDITOR.replace('editor1')
+    //bootstrap WYSIHTML5 - text editor
+    $('.textarea').wysihtml5()
+  })
+</script>
 
 <!-- load datatables -->
 <script type="text/javascript">

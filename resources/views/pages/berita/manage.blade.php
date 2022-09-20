@@ -33,7 +33,8 @@
                 <div class="form-group">
                   <label class="col-sm-2 control-label">Isi</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="isi" name="isi" placeholder="Isi" value="{{ isset($beritas)?$beritas->isi:null }}">
+                    <!-- <input type="text" class="form-control" id="isi" name="isi" placeholder="Isi" value="{{ isset($beritas)?$beritas->isi:null }}"> -->
+                    <textarea class="form-control" id="editor1" name="isi" rows="3" placeholder="Isi Berita ...">{{ isset($beritas)?$beritas->isi:null }}</textarea>
                   </div>
                 </div>
                 <div class="form-group">
