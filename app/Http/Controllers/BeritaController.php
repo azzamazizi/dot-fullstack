@@ -66,7 +66,7 @@ class BeritaController extends Controller
             $berita->judulberita = $judul;
             $berita->isi = $isi;
             $berita->tglposting = date('Y-m-d');
-            $berita->jamposting = date('H:i');
+            $berita->jamposting = date('H:i:s');
             $berita->seoberita = Str::slug($judul, '-');
             $berita->idkategoriberita = $ktg_berita;
             $berita->user_id = $user;

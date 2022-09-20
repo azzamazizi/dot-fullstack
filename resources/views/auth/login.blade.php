@@ -29,7 +29,7 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition login-page" style="background-color: #00a65a">
+<body class="hold-transition login-page" style="background-color: #45bf57">
 <div class="login-box">
   <div class="login-logo" style="color: white;">
     <!-- <img src="{{ asset('assetslte/images/muijatim-logo.png') }}"> -->
@@ -75,6 +75,42 @@
 </div>
 <!-- /.login-box -->
 
+<!-- modal lupa kata sandi -->
+<div class="modal fade" id="lupasandi">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Lupa Kata Sandi ?</h4>
+      </div>
+      <div class="modal-body">
+        <p>Jika anda mengalami kendala Login ke, silahkan menghubungi :</p>
+        <br><br>
+        <table class="table" style="width: 50%">
+          <tr>
+            <td>Hubungi</td>
+            <td> : </td>
+            <td>Muhlisin Staff MUI Jatim</td>
+          </tr>
+          <tr>
+            <td>Telp/Whatsapp</td>
+            <td> : </td>
+            <td><a href="https://api.whatsapp.com/send?&phone=6281556726282" target="_blank">+62 815-5672-6282</a></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td> : </td>
+            <td><a href="mailto:info@muijatim.or.id">info@muijatim.or.id</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Tutup</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- jQuery 3 -->
 <script src="{{ asset('assetslte/bower_components/jquery/dist/jquery.min.js') }}"></script>
