@@ -1,0 +1,32 @@
+# Soal
+Selamat siang,
+Berikut saya lampirkan test online untuk posisi Fulltime Fullstack Developer dengan ketentuan sebagai berikut:
+
+    Durasi pengerjaan tes ini adalah 2x24 jam sejak klik start pada software hiring DOT Indonesia
+    Pertanyaan mengenai tes ini maupun pengajuan perpanjangan waktu (dengan alasan yang dapat dipertimbangkan) dapat disampaikan melalui email hrd@dot-indonesia.com
+
+Sertifikat Hackerrank
+Silakan melampirkan sertifikat Hackerrank problem solving basic yang dapat diperoleh di https://www.hackerrank.com/skills-verification/problem_solving_basic (Ekspektasi waktu pengerjaan 1 - 2 jam. Harap email di hrd@dot-indonesia.com apabila terdapat kendala pengerjaan atau membutuhkan tambahan waktu)
+
+Silakan Mengerjakan Soal Berikut
+
+1. Buatlah admin panel dengan fitur login dan CRUD 1 data yg mempunya relasi dengan menggunakan HTML CSS, PHP Laravel, MySQL, dan blade1
+2. Presentasikan hasil aplikasi serta jelaskan implementasi dari poin-poin kriteria di atas menggunakan aplikasi https://www.loom.com
+
+Ketentuan Pengerjaan
+ 
+
+- Dokumentasikan aplikasi dengan jelas. (Tambahkan Readme.md di repository). 
+- Berikan panduan cara install. 
+- Sertakan Dummy Data / Faker jika ada data yg diperlukan untuk menjalankan aplikasi di dokumentasi (Misal untuk akun login dummy).
+- Sertakan .env atau credential jika ada aplikasi third party
+- Jika diperlukan deploy ke platform hosting (Vercel, Netifly, Heroku, dll).
+
+ 
+
+
+    Link Github/Gitlab/BItbucket Aplikasi, link video loom, serta link sertifikat hackerrank dilampirkan pada kolom jawaban yang telah disediakan
+
+
+Selamat mengerjakan 
+Semoga lancar
